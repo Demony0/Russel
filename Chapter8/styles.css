@@ -16,6 +16,7 @@ body{
 }
 
 fieldset{
+Width:20rem; height:32rem;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -49,6 +50,7 @@ label{
 }
 
 .button{
+width:100%;
 	display:flex;
 	margin-bottom:10px;
 }
