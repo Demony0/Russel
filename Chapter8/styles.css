@@ -21,6 +21,7 @@ fieldset{
 	align-items:center;
 	border-radius:10px;
 	padding:0 10px;
+        flex-direction:column;
 	border:none;
 	box-shadow:1px 3px 10px rgba(0,0,0,.5),
 				-1px -3px 10px rgba(0,0,0,.5);
@@ -48,7 +49,6 @@ label{
 }
 
 .button{
-	width:100%;
 	display:flex;
 	margin-bottom:10px;
 }
@@ -78,9 +78,4 @@ input:focus{
 
 p{
 	margin:10px 0;
-}
-
-
-@media only screen and (min-device-width:320px) and (max-device-width:480px){
-
 }
