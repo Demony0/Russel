@@ -57,3 +57,7 @@ h1{
 ul,dl,ol{
 	margin:1%;
 }
+
+  @media only screen and (min-device-width:320px) and (max-device-width:480px){
+     font-size:.5rem
+}
