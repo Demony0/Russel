@@ -1,0 +1,88 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(10,10,90,.9),darkred);
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+fieldset{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:10px;
+	padding:0 10px;
+	border:none;
+	box-shadow:1px 3px 10px rgba(0,0,0,.5),
+				-1px -3px 10px rgba(0,0,0,.5);
+}
+
+input:hover{
+	background:rgba(250,250,250,.1);
+}
+
+
+input{
+	background:transparent;
+	border-radius:20px;
+	color:white;
+	font-weight:bold;
+	display:flex;
+	width:100%;
+	border-left:none;
+	border-top:none;
+	border-right:none;
+}
+
+label{
+	text-align:center;
+	margin:5px 0;
+}
+
+.button{
+	width:100%;
+	display:flex;
+	margin-bottom:10px;
+}
+
+.reset,
+.submit{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	box-shadow:1px 1px 1px rgba(0,0,0,.5),
+				-1px -1px 5px rgba(0,0,0,.5);
+
+}
+
+
+select{
+	width:100%;
+	color:black;
+	font-weight:bold;
+}
+
+input:focus{
+	border-color:red;
+	padding:0;
+	margin:0;
+	background:linear-gradient(darkblue,darkred);
+	transition:1s;
+	border-radius:none;
+}
+
+p{
+	margin:10px 0;
+}
+
+
+

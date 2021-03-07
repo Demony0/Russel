@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+	<html lang="en">
+		<head>
+			<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+			<meta name="author" content="Santigo, Julieus Russel" />
+			<meta charset="utf-8" />
+			<title>Form</title>
+			<link rel="stylesheet" href="styles.css" />
+		</head>
+		
+		<body>
+			<header>
+				<h1 align="center"><u>BIOGRAPHY</u></h1>
+			</header>
+			
+			<main>
+				<form method="post" action="chapter8.html">
+				<div class="twoFormWrapper">
+				
+					<fieldset class="fieldOne">
+						<legend><h2>Creating Social Account</h2></legend>
+						<label>Last Name </label><input name="lastName" type="text" required>
+						<label>First Name </label><input name="firstName" type="text" required>
+						<label>Middle Name</label><input name="middleName" type="text" required>
+						<label>Birth Place </label><input name="text" type="address" required>
+						<label>BirthDay </label><input name="birthday" type="date" required>
+						<label>User Name </label><input name="userName" type="text"  required />
+						<label>Password </label><input name="passwrod" type="password"  required />
+						
+						<p>Profile Picture</p>
+						<input type="file" required>
+					<p>Gender</p>
+					<select>
+							<option value="male">Male</option>
+							<option value="famale">Female</option>
+					</select>
+					<br />
+					<span class="button">
+						<input type="reset" class="reset"/>
+						<input type="submit" class="submit"/>
+					</span>
+					</fieldset>
+				</form>
+			
+			</main>
+			
+		</body>
+	</html>

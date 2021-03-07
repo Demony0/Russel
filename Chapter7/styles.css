@@ -1,0 +1,71 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	background:linear-gradient(gray,darkred);
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	width:100%;	height:100vh;
+}
+
+table{
+	border:2px solid rgba(212,23,151,.5);
+}
+
+td{
+	border:3px solid rgba(212,123,151,.7);
+}
+
+#gma{
+	background:url(../images/gma.jpg);
+}
+
+#una{
+	background:url(../images/una.jpg);
+}
+
+#dra{
+	background:url(../images/dra.jpg);
+}
+
+#the{
+	background:url(../images/the.jpg);
+}
+
+#mar{
+	background:url(../images/mar.jpg);
+}
+
+#kap{
+	background:url(../images/kap.jfif);
+}
+
+#blo{
+	background:url(../images/blo.jfif);
+}
+
+
+#gma,
+#una,
+#dra,
+#the,
+#mar,
+#kap,
+#blo{
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+	width:100%;
+	font-weight:bold;
+	width:10%;
+	height:10rem;
+	text-shadow:1px 1px 1px #1D224C;
+}
+
+
+
+
